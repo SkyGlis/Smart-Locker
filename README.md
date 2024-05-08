@@ -1,5 +1,7 @@
 # Smart-Locker
 
+## Site
+- Programas / Serviços necessários
 | Programa | Motivo |
 |---|---|
 | Visual Studio Code | Mostrar o código |
