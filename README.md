@@ -7,6 +7,7 @@
 |---|---|
 | Visual Studio Code | Mostrar o código |
 | WAMP | Dar host no site |
+| Arduino IDE | Mostrar o Arduino |
 
 ## Arduino
 - Librarias
