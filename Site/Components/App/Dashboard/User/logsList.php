@@ -21,7 +21,7 @@
                         <td><?=date("d/m/Y", strtotime($row['date']))?></td>
                         <td><?=date("H:i:s", strtotime($row['date']))?></td>
                         <td><?=$row['user']?></td>
-                        <td><?=($row['success'] ? "<i class='fa-solid fa-check'></i>" : "<i class='fa-solid fa-xmark'></i>")?></td>
+                        <td><?=($row['success'] ? "<i class='fa-solid fa-check' style='color: #00B815'></i>" : "<i class='fa-solid fa-xmark' style='color: #E00000'></i>")?></td>
                     </tr>
                 <?php
                 }

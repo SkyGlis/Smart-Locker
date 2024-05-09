@@ -40,7 +40,7 @@
 
             unset($_REQUEST);
 
-            header('Location: ../../login.php');
+            header('Location: ../../dashboard.php?menu=reset');
             exit;
         }
     }

@@ -20,7 +20,7 @@
                     <tr>
                         <td><?=ucfirst($row['name'])?></td>
                         <td><?=$row['tag']?></td>
-                        <td><?=($row['admin'] ? "<i class='fa-solid fa-check'></i>" : "<i class='fa-solid fa-xmark'></i>")?></td>
+                        <td><?=($row['admin'] ? "<i class='fa-solid fa-check' style='color: #00B815'></i>" : "<i class='fa-solid fa-xmark' style='color: #E00000'></i>")?></td>
                         <td>
                             <a class="btn btn-outline-dark btn-sm" href="dashboard.php?menu=rfid&user=<?=$row['name']?>"><i class="fa-light fa-nfc"></i> Alterar tag NFC</a>
                             <a class="btn btn-outline-dark btn-sm" href="dashboard.php?menu=recover&user=<?=$row['name']?>"><i class="fa-light fa-rotate"></i> Repor password</a>
