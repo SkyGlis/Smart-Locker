@@ -41,7 +41,7 @@ CREATE TABLE users (
     id int NOT NULL AUTO_INCREMENT,
     name varchar(255),
     tag varchar(255),
-    password varchar(255),
+    password int,
     admin Boolean,
     PRIMARY KEY(id)
 )
